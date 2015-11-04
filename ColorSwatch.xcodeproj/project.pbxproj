@@ -3,50 +3,134 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 43;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4F94EE0107B308C000AE9F13 /* ColorSwatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B9849E402FF0A3C0ACA0C9A /* ColorSwatch.h */; };
-		4F94EE0207B308C000AE9F13 /* TCarbonEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B561ED1030444400ACA0C9A /* TCarbonEvent.h */; };
-		4F94EE0307B308C000AE9F13 /* TView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B561ED5030444400ACA0C9A /* TView.h */; };
-		4F94EE0407B308C000AE9F13 /* TRect.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B208B65030AF2E90ACA0C9A /* TRect.h */; };
-		4F94EE0507B308C000AE9F13 /* TObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 6029BE9403F9CE210BFF4F4D /* TObject.h */; };
-		4F94EE0607B308C000AE9F13 /* HIFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 332477D20690C8C700AAEC61 /* HIFramework.h */; };
-		4F94EE0707B308C000AE9F13 /* TEventHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 332477D40690C8C700AAEC61 /* TEventHandler.h */; };
 		4F94EE0907B308C000AE9F13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0867D6AAFE840B52C02AAC07 /* InfoPlist.strings */; };
 		4F94EE0A07B308C000AE9F13 /* main.nib in Resources */ = {isa = PBXBuildFile; fileRef = 02345980000FD03B11CA0E72 /* main.nib */; };
 		4F94EE0C07B308C000AE9F13 /* main.cp in Sources */ = {isa = PBXBuildFile; fileRef = F5B5E4860302E27201B8B912 /* main.cp */; };
-		4F94EE0D07B308C000AE9F13 /* TCarbonEvent.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8B561ED0030444400ACA0C9A /* TCarbonEvent.cp */; };
-		4F94EE0E07B308C000AE9F13 /* TView.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8B561ED4030444400ACA0C9A /* TView.cp */; };
-		4F94EE0F07B308C000AE9F13 /* TRect.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8B208B64030AF2E90ACA0C9A /* TRect.cp */; };
 		4F94EE1007B308C000AE9F13 /* ColorSwatch.cp in Sources */ = {isa = PBXBuildFile; fileRef = 60928D16034CF5450BCA0CB8 /* ColorSwatch.cp */; };
-		4F94EE1107B308C000AE9F13 /* TObject.cp in Sources */ = {isa = PBXBuildFile; fileRef = 6029BE9303F9CE210BFF4F4D /* TObject.cp */; };
-		4F94EE1207B308C000AE9F13 /* TEventHandler.cp in Sources */ = {isa = PBXBuildFile; fileRef = 332477D30690C8C700AAEC61 /* TEventHandler.cp */; };
 		4F94EE1407B308C000AE9F13 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20286C33FDCF999611CA2CEA /* Carbon.framework */; };
+		8D5D147209E7303100B16B69 /* TArray.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D13FE09E7303100B16B69 /* TArray.cp */; };
+		8D5D147309E7303100B16B69 /* TArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D13FF09E7303100B16B69 /* TArray.h */; };
+		8D5D147409E7303100B16B69 /* TBag.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D140009E7303100B16B69 /* TBag.cp */; };
+		8D5D147509E7303100B16B69 /* TBag.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D140109E7303100B16B69 /* TBag.h */; };
+		8D5D147609E7303100B16B69 /* TBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D140209E7303100B16B69 /* TBase.h */; };
+		8D5D147709E7303100B16B69 /* TCFType.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D140309E7303100B16B69 /* TCFType.cp */; };
+		8D5D147809E7303100B16B69 /* TCFType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D140409E7303100B16B69 /* TCFType.h */; };
+		8D5D147909E7303100B16B69 /* TData.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D140509E7303100B16B69 /* TData.cp */; };
+		8D5D147A09E7303100B16B69 /* TData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D140609E7303100B16B69 /* TData.h */; };
+		8D5D147B09E7303100B16B69 /* TDictionary.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D140709E7303100B16B69 /* TDictionary.cp */; };
+		8D5D147C09E7303100B16B69 /* TDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D140809E7303100B16B69 /* TDictionary.h */; };
+		8D5D147D09E7303100B16B69 /* TNumber.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D140909E7303100B16B69 /* TNumber.cp */; };
+		8D5D147E09E7303100B16B69 /* TNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D140A09E7303100B16B69 /* TNumber.h */; };
+		8D5D147F09E7303100B16B69 /* TSet.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D140B09E7303100B16B69 /* TSet.cp */; };
+		8D5D148009E7303100B16B69 /* TSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D140C09E7303100B16B69 /* TSet.h */; };
+		8D5D148109E7303100B16B69 /* TStream.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D140D09E7303100B16B69 /* TStream.cp */; };
+		8D5D148209E7303100B16B69 /* TStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D140E09E7303100B16B69 /* TStream.h */; };
+		8D5D148309E7303100B16B69 /* TString.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D140F09E7303100B16B69 /* TString.cp */; };
+		8D5D148409E7303100B16B69 /* TString.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D141009E7303100B16B69 /* TString.h */; };
+		8D5D148509E7303100B16B69 /* TType.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D141109E7303100B16B69 /* TType.cp */; };
+		8D5D148609E7303100B16B69 /* TType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D141209E7303100B16B69 /* TType.h */; };
+		8D5D148709E7303100B16B69 /* TURL.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D141309E7303100B16B69 /* TURL.cp */; };
+		8D5D148809E7303100B16B69 /* TURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D141409E7303100B16B69 /* TURL.h */; };
+		8D5D148909E7303100B16B69 /* HIFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D141509E7303100B16B69 /* HIFramework.h */; };
+		8D5D14B809E7303100B16B69 /* CFArrayMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D145309E7303100B16B69 /* CFArrayMethods.h */; };
+		8D5D14B909E7303100B16B69 /* CFBagMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D145409E7303100B16B69 /* CFBagMethods.h */; };
+		8D5D14BA09E7303100B16B69 /* CFDataMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D145509E7303100B16B69 /* CFDataMethods.h */; };
+		8D5D14BB09E7303100B16B69 /* CFDictionaryMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D145609E7303100B16B69 /* CFDictionaryMethods.h */; };
+		8D5D14BC09E7303100B16B69 /* CFMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D145709E7303100B16B69 /* CFMethods.h */; };
+		8D5D14BD09E7303100B16B69 /* CFNumberMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D145809E7303100B16B69 /* CFNumberMethods.h */; };
+		8D5D14BE09E7303100B16B69 /* CFSetMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D145909E7303100B16B69 /* CFSetMethods.h */; };
+		8D5D14BF09E7303100B16B69 /* CFStringMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D145A09E7303100B16B69 /* CFStringMethods.h */; };
+		8D5D14C009E7303100B16B69 /* CFTypeMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D145B09E7303100B16B69 /* CFTypeMethods.h */; };
+		8D5D14C109E7303100B16B69 /* CFURLMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D145C09E7303100B16B69 /* CFURLMethods.h */; };
+		8D5D14C209E7303100B16B69 /* ControlMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D145D09E7303100B16B69 /* ControlMethods.h */; };
+		8D5D14C309E7303100B16B69 /* HIObjectMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D145E09E7303100B16B69 /* HIObjectMethods.h */; };
+		8D5D14C409E7303100B16B69 /* HIViewMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D145F09E7303100B16B69 /* HIViewMethods.h */; };
+		8D5D14C509E7303100B16B69 /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8D5D146009E7303100B16B69 /* README.rtf */; };
+		8D5D14C609E7303100B16B69 /* TApplication.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D146109E7303100B16B69 /* TApplication.cp */; };
+		8D5D14C709E7303100B16B69 /* TApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D146209E7303100B16B69 /* TApplication.h */; };
+		8D5D14C809E7303100B16B69 /* TCarbonEvent.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D146309E7303100B16B69 /* TCarbonEvent.cp */; };
+		8D5D14C909E7303100B16B69 /* TCarbonEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D146409E7303100B16B69 /* TCarbonEvent.h */; };
+		8D5D14CA09E7303100B16B69 /* TEventHandler.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D146509E7303100B16B69 /* TEventHandler.cp */; };
+		8D5D14CB09E7303100B16B69 /* TEventHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D146609E7303100B16B69 /* TEventHandler.h */; };
+		8D5D14CC09E7303100B16B69 /* TNib.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D146709E7303100B16B69 /* TNib.cp */; };
+		8D5D14CD09E7303100B16B69 /* TNib.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D146809E7303100B16B69 /* TNib.h */; };
+		8D5D14CE09E7303100B16B69 /* TObject.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D146909E7303100B16B69 /* TObject.cp */; };
+		8D5D14CF09E7303100B16B69 /* TObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D146A09E7303100B16B69 /* TObject.h */; };
+		8D5D14D009E7303100B16B69 /* TRect.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D146B09E7303100B16B69 /* TRect.cp */; };
+		8D5D14D109E7303100B16B69 /* TRect.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D146C09E7303100B16B69 /* TRect.h */; };
+		8D5D14D209E7303100B16B69 /* TView.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D146D09E7303100B16B69 /* TView.cp */; };
+		8D5D14D309E7303100B16B69 /* TView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D146E09E7303100B16B69 /* TView.h */; };
+		8D5D14D409E7303100B16B69 /* TWindow.cp in Sources */ = {isa = PBXBuildFile; fileRef = 8D5D146F09E7303100B16B69 /* TWindow.cp */; };
+		8D5D14D509E7303100B16B69 /* TWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D5D147009E7303100B16B69 /* TWindow.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0867D6ABFE840B52C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1870340FFE93FCAF11CA0CD7 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/main.nib; sourceTree = "<group>"; };
 		20286C33FDCF999611CA2CEA /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
-		332477D20690C8C700AAEC61 /* HIFramework.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = HIFramework.h; sourceTree = "<group>"; };
-		332477D30690C8C700AAEC61 /* TEventHandler.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TEventHandler.cp; sourceTree = "<group>"; };
-		332477D40690C8C700AAEC61 /* TEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TEventHandler.h; sourceTree = "<group>"; };
-		4A9504C8FFE6A3BC11CA0CBA /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
-		4A9504CAFFE6A41611CA0CBA /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
 		4F94EE1607B308C000AE9F13 /* Info-ColorSwatch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-ColorSwatch.plist"; sourceTree = "<group>"; };
 		4F94EE1707B308C000AE9F13 /* ColorSwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6029BE9303F9CE210BFF4F4D /* TObject.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = TObject.cp; path = ../HIFramework/TObject.cp; sourceTree = SOURCE_ROOT; };
-		6029BE9403F9CE210BFF4F4D /* TObject.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = TObject.h; path = ../HIFramework/TObject.h; sourceTree = SOURCE_ROOT; };
 		60928D16034CF5450BCA0CB8 /* ColorSwatch.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = ColorSwatch.cp; sourceTree = "<group>"; };
-		8B208B64030AF2E90ACA0C9A /* TRect.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = TRect.cp; path = ../HIFramework/TRect.cp; sourceTree = SOURCE_ROOT; };
-		8B208B65030AF2E90ACA0C9A /* TRect.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = TRect.h; path = ../HIFramework/TRect.h; sourceTree = SOURCE_ROOT; };
-		8B561ED0030444400ACA0C9A /* TCarbonEvent.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = TCarbonEvent.cp; path = ../HIFramework/TCarbonEvent.cp; sourceTree = SOURCE_ROOT; };
-		8B561ED1030444400ACA0C9A /* TCarbonEvent.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = TCarbonEvent.h; path = ../HIFramework/TCarbonEvent.h; sourceTree = SOURCE_ROOT; };
-		8B561ED4030444400ACA0C9A /* TView.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = TView.cp; path = ../HIFramework/TView.cp; sourceTree = SOURCE_ROOT; };
-		8B561ED5030444400ACA0C9A /* TView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = TView.h; path = ../HIFramework/TView.h; sourceTree = SOURCE_ROOT; };
 		8B9849E402FF0A3C0ACA0C9A /* ColorSwatch.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ColorSwatch.h; sourceTree = "<group>"; };
+		8D5D13FE09E7303100B16B69 /* TArray.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TArray.cp; sourceTree = "<group>"; };
+		8D5D13FF09E7303100B16B69 /* TArray.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TArray.h; sourceTree = "<group>"; };
+		8D5D140009E7303100B16B69 /* TBag.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TBag.cp; sourceTree = "<group>"; };
+		8D5D140109E7303100B16B69 /* TBag.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TBag.h; sourceTree = "<group>"; };
+		8D5D140209E7303100B16B69 /* TBase.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TBase.h; sourceTree = "<group>"; };
+		8D5D140309E7303100B16B69 /* TCFType.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TCFType.cp; sourceTree = "<group>"; };
+		8D5D140409E7303100B16B69 /* TCFType.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TCFType.h; sourceTree = "<group>"; };
+		8D5D140509E7303100B16B69 /* TData.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TData.cp; sourceTree = "<group>"; };
+		8D5D140609E7303100B16B69 /* TData.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TData.h; sourceTree = "<group>"; };
+		8D5D140709E7303100B16B69 /* TDictionary.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TDictionary.cp; sourceTree = "<group>"; };
+		8D5D140809E7303100B16B69 /* TDictionary.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TDictionary.h; sourceTree = "<group>"; };
+		8D5D140909E7303100B16B69 /* TNumber.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TNumber.cp; sourceTree = "<group>"; };
+		8D5D140A09E7303100B16B69 /* TNumber.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TNumber.h; sourceTree = "<group>"; };
+		8D5D140B09E7303100B16B69 /* TSet.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TSet.cp; sourceTree = "<group>"; };
+		8D5D140C09E7303100B16B69 /* TSet.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TSet.h; sourceTree = "<group>"; };
+		8D5D140D09E7303100B16B69 /* TStream.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TStream.cp; sourceTree = "<group>"; };
+		8D5D140E09E7303100B16B69 /* TStream.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TStream.h; sourceTree = "<group>"; };
+		8D5D140F09E7303100B16B69 /* TString.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TString.cp; sourceTree = "<group>"; };
+		8D5D141009E7303100B16B69 /* TString.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TString.h; sourceTree = "<group>"; };
+		8D5D141109E7303100B16B69 /* TType.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TType.cp; sourceTree = "<group>"; };
+		8D5D141209E7303100B16B69 /* TType.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TType.h; sourceTree = "<group>"; };
+		8D5D141309E7303100B16B69 /* TURL.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TURL.cp; sourceTree = "<group>"; };
+		8D5D141409E7303100B16B69 /* TURL.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TURL.h; sourceTree = "<group>"; };
+		8D5D141509E7303100B16B69 /* HIFramework.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = HIFramework.h; sourceTree = "<group>"; };
+		8D5D145309E7303100B16B69 /* CFArrayMethods.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CFArrayMethods.h; sourceTree = "<group>"; };
+		8D5D145409E7303100B16B69 /* CFBagMethods.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CFBagMethods.h; sourceTree = "<group>"; };
+		8D5D145509E7303100B16B69 /* CFDataMethods.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CFDataMethods.h; sourceTree = "<group>"; };
+		8D5D145609E7303100B16B69 /* CFDictionaryMethods.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CFDictionaryMethods.h; sourceTree = "<group>"; };
+		8D5D145709E7303100B16B69 /* CFMethods.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CFMethods.h; sourceTree = "<group>"; };
+		8D5D145809E7303100B16B69 /* CFNumberMethods.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CFNumberMethods.h; sourceTree = "<group>"; };
+		8D5D145909E7303100B16B69 /* CFSetMethods.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CFSetMethods.h; sourceTree = "<group>"; };
+		8D5D145A09E7303100B16B69 /* CFStringMethods.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CFStringMethods.h; sourceTree = "<group>"; };
+		8D5D145B09E7303100B16B69 /* CFTypeMethods.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CFTypeMethods.h; sourceTree = "<group>"; };
+		8D5D145C09E7303100B16B69 /* CFURLMethods.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = CFURLMethods.h; sourceTree = "<group>"; };
+		8D5D145D09E7303100B16B69 /* ControlMethods.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ControlMethods.h; sourceTree = "<group>"; };
+		8D5D145E09E7303100B16B69 /* HIObjectMethods.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = HIObjectMethods.h; sourceTree = "<group>"; };
+		8D5D145F09E7303100B16B69 /* HIViewMethods.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = HIViewMethods.h; sourceTree = "<group>"; };
+		8D5D146009E7303100B16B69 /* README.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
+		8D5D146109E7303100B16B69 /* TApplication.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TApplication.cp; sourceTree = "<group>"; };
+		8D5D146209E7303100B16B69 /* TApplication.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TApplication.h; sourceTree = "<group>"; };
+		8D5D146309E7303100B16B69 /* TCarbonEvent.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TCarbonEvent.cp; sourceTree = "<group>"; };
+		8D5D146409E7303100B16B69 /* TCarbonEvent.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TCarbonEvent.h; sourceTree = "<group>"; };
+		8D5D146509E7303100B16B69 /* TEventHandler.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TEventHandler.cp; sourceTree = "<group>"; };
+		8D5D146609E7303100B16B69 /* TEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TEventHandler.h; sourceTree = "<group>"; };
+		8D5D146709E7303100B16B69 /* TNib.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TNib.cp; sourceTree = "<group>"; };
+		8D5D146809E7303100B16B69 /* TNib.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TNib.h; sourceTree = "<group>"; };
+		8D5D146909E7303100B16B69 /* TObject.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TObject.cp; sourceTree = "<group>"; };
+		8D5D146A09E7303100B16B69 /* TObject.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TObject.h; sourceTree = "<group>"; };
+		8D5D146B09E7303100B16B69 /* TRect.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TRect.cp; sourceTree = "<group>"; };
+		8D5D146C09E7303100B16B69 /* TRect.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TRect.h; sourceTree = "<group>"; };
+		8D5D146D09E7303100B16B69 /* TView.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TView.cp; sourceTree = "<group>"; };
+		8D5D146E09E7303100B16B69 /* TView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TView.h; sourceTree = "<group>"; };
+		8D5D146F09E7303100B16B69 /* TWindow.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = TWindow.cp; sourceTree = "<group>"; };
+		8D5D147009E7303100B16B69 /* TWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = TWindow.h; sourceTree = "<group>"; };
 		F5B5E4860302E27201B8B912 /* main.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = main.cp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				20286C2AFDCF999611CA2CEA /* Sources */,
+				8D5D13FA09E7303100B16B69 /* HIFramework */,
 				20286C2CFDCF999611CA2CEA /* Resources */,
 				20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */,
 				195DF8CFFE9D517E11CA2CBB /* Products */,
@@ -88,7 +173,6 @@
 				F5B5E4860302E27201B8B912 /* main.cp */,
 				8B9849E402FF0A3C0ACA0C9A /* ColorSwatch.h */,
 				60928D16034CF5450BCA0CB8 /* ColorSwatch.cp */,
-				8B561ECF030444400ACA0C9A /* HIFramework */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -106,30 +190,87 @@
 			isa = PBXGroup;
 			children = (
 				20286C33FDCF999611CA2CEA /* Carbon.framework */,
-				4A9504CAFFE6A41611CA0CBA /* CoreServices.framework */,
-				4A9504C8FFE6A3BC11CA0CBA /* ApplicationServices.framework */,
 			);
 			name = "External Frameworks and Libraries";
 			sourceTree = "<group>";
 		};
-		8B561ECF030444400ACA0C9A /* HIFramework */ = {
+		8D5D13FA09E7303100B16B69 /* HIFramework */ = {
 			isa = PBXGroup;
 			children = (
-				332477D20690C8C700AAEC61 /* HIFramework.h */,
-				8B561ED0030444400ACA0C9A /* TCarbonEvent.cp */,
-				8B561ED1030444400ACA0C9A /* TCarbonEvent.h */,
-				332477D30690C8C700AAEC61 /* TEventHandler.cp */,
-				332477D40690C8C700AAEC61 /* TEventHandler.h */,
-				6029BE9303F9CE210BFF4F4D /* TObject.cp */,
-				6029BE9403F9CE210BFF4F4D /* TObject.h */,
-				8B208B64030AF2E90ACA0C9A /* TRect.cp */,
-				8B208B65030AF2E90ACA0C9A /* TRect.h */,
-				8B561ED4030444400ACA0C9A /* TView.cp */,
-				8B561ED5030444400ACA0C9A /* TView.h */,
+				8D5D13FD09E7303100B16B69 /* Foundation */,
+				8D5D141509E7303100B16B69 /* HIFramework.h */,
+				8D5D145209E7303100B16B69 /* Methods */,
+				8D5D146009E7303100B16B69 /* README.rtf */,
+				8D5D146109E7303100B16B69 /* TApplication.cp */,
+				8D5D146209E7303100B16B69 /* TApplication.h */,
+				8D5D146309E7303100B16B69 /* TCarbonEvent.cp */,
+				8D5D146409E7303100B16B69 /* TCarbonEvent.h */,
+				8D5D146509E7303100B16B69 /* TEventHandler.cp */,
+				8D5D146609E7303100B16B69 /* TEventHandler.h */,
+				8D5D146709E7303100B16B69 /* TNib.cp */,
+				8D5D146809E7303100B16B69 /* TNib.h */,
+				8D5D146909E7303100B16B69 /* TObject.cp */,
+				8D5D146A09E7303100B16B69 /* TObject.h */,
+				8D5D146B09E7303100B16B69 /* TRect.cp */,
+				8D5D146C09E7303100B16B69 /* TRect.h */,
+				8D5D146D09E7303100B16B69 /* TView.cp */,
+				8D5D146E09E7303100B16B69 /* TView.h */,
+				8D5D146F09E7303100B16B69 /* TWindow.cp */,
+				8D5D147009E7303100B16B69 /* TWindow.h */,
 			);
 			name = HIFramework;
 			path = ../HIFramework;
 			sourceTree = SOURCE_ROOT;
+		};
+		8D5D13FD09E7303100B16B69 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				8D5D13FE09E7303100B16B69 /* TArray.cp */,
+				8D5D13FF09E7303100B16B69 /* TArray.h */,
+				8D5D140009E7303100B16B69 /* TBag.cp */,
+				8D5D140109E7303100B16B69 /* TBag.h */,
+				8D5D140209E7303100B16B69 /* TBase.h */,
+				8D5D140309E7303100B16B69 /* TCFType.cp */,
+				8D5D140409E7303100B16B69 /* TCFType.h */,
+				8D5D140509E7303100B16B69 /* TData.cp */,
+				8D5D140609E7303100B16B69 /* TData.h */,
+				8D5D140709E7303100B16B69 /* TDictionary.cp */,
+				8D5D140809E7303100B16B69 /* TDictionary.h */,
+				8D5D140909E7303100B16B69 /* TNumber.cp */,
+				8D5D140A09E7303100B16B69 /* TNumber.h */,
+				8D5D140B09E7303100B16B69 /* TSet.cp */,
+				8D5D140C09E7303100B16B69 /* TSet.h */,
+				8D5D140D09E7303100B16B69 /* TStream.cp */,
+				8D5D140E09E7303100B16B69 /* TStream.h */,
+				8D5D140F09E7303100B16B69 /* TString.cp */,
+				8D5D141009E7303100B16B69 /* TString.h */,
+				8D5D141109E7303100B16B69 /* TType.cp */,
+				8D5D141209E7303100B16B69 /* TType.h */,
+				8D5D141309E7303100B16B69 /* TURL.cp */,
+				8D5D141409E7303100B16B69 /* TURL.h */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		8D5D145209E7303100B16B69 /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+				8D5D145309E7303100B16B69 /* CFArrayMethods.h */,
+				8D5D145409E7303100B16B69 /* CFBagMethods.h */,
+				8D5D145509E7303100B16B69 /* CFDataMethods.h */,
+				8D5D145609E7303100B16B69 /* CFDictionaryMethods.h */,
+				8D5D145709E7303100B16B69 /* CFMethods.h */,
+				8D5D145809E7303100B16B69 /* CFNumberMethods.h */,
+				8D5D145909E7303100B16B69 /* CFSetMethods.h */,
+				8D5D145A09E7303100B16B69 /* CFStringMethods.h */,
+				8D5D145B09E7303100B16B69 /* CFTypeMethods.h */,
+				8D5D145C09E7303100B16B69 /* CFURLMethods.h */,
+				8D5D145D09E7303100B16B69 /* ControlMethods.h */,
+				8D5D145E09E7303100B16B69 /* HIObjectMethods.h */,
+				8D5D145F09E7303100B16B69 /* HIViewMethods.h */,
+			);
+			path = Methods;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -139,12 +280,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F94EE0107B308C000AE9F13 /* ColorSwatch.h in Headers */,
-				4F94EE0207B308C000AE9F13 /* TCarbonEvent.h in Headers */,
-				4F94EE0307B308C000AE9F13 /* TView.h in Headers */,
-				4F94EE0407B308C000AE9F13 /* TRect.h in Headers */,
-				4F94EE0507B308C000AE9F13 /* TObject.h in Headers */,
-				4F94EE0607B308C000AE9F13 /* HIFramework.h in Headers */,
-				4F94EE0707B308C000AE9F13 /* TEventHandler.h in Headers */,
+				8D5D147309E7303100B16B69 /* TArray.h in Headers */,
+				8D5D147509E7303100B16B69 /* TBag.h in Headers */,
+				8D5D147609E7303100B16B69 /* TBase.h in Headers */,
+				8D5D147809E7303100B16B69 /* TCFType.h in Headers */,
+				8D5D147A09E7303100B16B69 /* TData.h in Headers */,
+				8D5D147C09E7303100B16B69 /* TDictionary.h in Headers */,
+				8D5D147E09E7303100B16B69 /* TNumber.h in Headers */,
+				8D5D148009E7303100B16B69 /* TSet.h in Headers */,
+				8D5D148209E7303100B16B69 /* TStream.h in Headers */,
+				8D5D148409E7303100B16B69 /* TString.h in Headers */,
+				8D5D148609E7303100B16B69 /* TType.h in Headers */,
+				8D5D148809E7303100B16B69 /* TURL.h in Headers */,
+				8D5D148909E7303100B16B69 /* HIFramework.h in Headers */,
+				8D5D14B809E7303100B16B69 /* CFArrayMethods.h in Headers */,
+				8D5D14B909E7303100B16B69 /* CFBagMethods.h in Headers */,
+				8D5D14BA09E7303100B16B69 /* CFDataMethods.h in Headers */,
+				8D5D14BB09E7303100B16B69 /* CFDictionaryMethods.h in Headers */,
+				8D5D14BC09E7303100B16B69 /* CFMethods.h in Headers */,
+				8D5D14BD09E7303100B16B69 /* CFNumberMethods.h in Headers */,
+				8D5D14BE09E7303100B16B69 /* CFSetMethods.h in Headers */,
+				8D5D14BF09E7303100B16B69 /* CFStringMethods.h in Headers */,
+				8D5D14C009E7303100B16B69 /* CFTypeMethods.h in Headers */,
+				8D5D14C109E7303100B16B69 /* CFURLMethods.h in Headers */,
+				8D5D14C209E7303100B16B69 /* ControlMethods.h in Headers */,
+				8D5D14C309E7303100B16B69 /* HIObjectMethods.h in Headers */,
+				8D5D14C409E7303100B16B69 /* HIViewMethods.h in Headers */,
+				8D5D14C709E7303100B16B69 /* TApplication.h in Headers */,
+				8D5D14C909E7303100B16B69 /* TCarbonEvent.h in Headers */,
+				8D5D14CB09E7303100B16B69 /* TEventHandler.h in Headers */,
+				8D5D14CD09E7303100B16B69 /* TNib.h in Headers */,
+				8D5D14CF09E7303100B16B69 /* TObject.h in Headers */,
+				8D5D14D109E7303100B16B69 /* TRect.h in Headers */,
+				8D5D14D309E7303100B16B69 /* TView.h in Headers */,
+				8D5D14D509E7303100B16B69 /* TWindow.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +322,7 @@
 /* Begin PBXNativeTarget section */
 		4F94EDFF07B308C000AE9F13 /* ColorSwatch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE651AE50C34728300EC1FC8 /* Build configuration list for PBXNativeTarget "ColorSwatch" */;
+			buildConfigurationList = 4F5571D208A00F0300BAA99A /* Build configuration list for PBXNativeTarget "ColorSwatch" */;
 			buildPhases = (
 				4F94EE0007B308C000AE9F13 /* Headers */,
 				4F94EE0807B308C000AE9F13 /* Resources */,
@@ -176,10 +345,12 @@
 /* Begin PBXProject section */
 		20286C28FDCF999611CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = BE651AE90C34728300EC1FC8 /* Build configuration list for PBXProject "ColorSwatch" */;
+			buildConfigurationList = 4F5571D608A00F0300BAA99A /* Build configuration list for PBXProject "ColorSwatch" */;
+			compatibilityVersion = "Xcode 3.0";
 			hasScannedForEncodings = 1;
 			mainGroup = 20286C29FDCF999611CA2CEA /* ColorSwatch */;
 			projectDirPath = "";
+			projectRoot = "";
 			targets = (
 				4F94EDFF07B308C000AE9F13 /* ColorSwatch */,
 			);
@@ -193,6 +364,7 @@
 			files = (
 				4F94EE0907B308C000AE9F13 /* InfoPlist.strings in Resources */,
 				4F94EE0A07B308C000AE9F13 /* main.nib in Resources */,
+				8D5D14C509E7303100B16B69 /* README.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,12 +386,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F94EE0C07B308C000AE9F13 /* main.cp in Sources */,
-				4F94EE0D07B308C000AE9F13 /* TCarbonEvent.cp in Sources */,
-				4F94EE0E07B308C000AE9F13 /* TView.cp in Sources */,
-				4F94EE0F07B308C000AE9F13 /* TRect.cp in Sources */,
 				4F94EE1007B308C000AE9F13 /* ColorSwatch.cp in Sources */,
-				4F94EE1107B308C000AE9F13 /* TObject.cp in Sources */,
-				4F94EE1207B308C000AE9F13 /* TEventHandler.cp in Sources */,
+				8D5D147209E7303100B16B69 /* TArray.cp in Sources */,
+				8D5D147409E7303100B16B69 /* TBag.cp in Sources */,
+				8D5D147709E7303100B16B69 /* TCFType.cp in Sources */,
+				8D5D147909E7303100B16B69 /* TData.cp in Sources */,
+				8D5D147B09E7303100B16B69 /* TDictionary.cp in Sources */,
+				8D5D147D09E7303100B16B69 /* TNumber.cp in Sources */,
+				8D5D147F09E7303100B16B69 /* TSet.cp in Sources */,
+				8D5D148109E7303100B16B69 /* TStream.cp in Sources */,
+				8D5D148309E7303100B16B69 /* TString.cp in Sources */,
+				8D5D148509E7303100B16B69 /* TType.cp in Sources */,
+				8D5D148709E7303100B16B69 /* TURL.cp in Sources */,
+				8D5D14C609E7303100B16B69 /* TApplication.cp in Sources */,
+				8D5D14C809E7303100B16B69 /* TCarbonEvent.cp in Sources */,
+				8D5D14CA09E7303100B16B69 /* TEventHandler.cp in Sources */,
+				8D5D14CC09E7303100B16B69 /* TNib.cp in Sources */,
+				8D5D14CE09E7303100B16B69 /* TObject.cp in Sources */,
+				8D5D14D009E7303100B16B69 /* TRect.cp in Sources */,
+				8D5D14D209E7303100B16B69 /* TView.cp in Sources */,
+				8D5D14D409E7303100B16B69 /* TWindow.cp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,128 +431,86 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BE651AE60C34728300EC1FC8 /* Development */ = {
+		4F5571D308A00F0300BAA99A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				HEADER_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				INFOPLIST_FILE = "Info-ColorSwatch.plist";
 				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Demos";
-				LIBRARY_SEARCH_PATHS = "";
-				OPTIMIZATION_CFLAGS = "-O0";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ColorSwatch;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				SDKROOTS = "$(inherited)";
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
-			name = Development;
+			name = Debug;
 		};
-		BE651AE70C34728300EC1FC8 /* Deployment */ = {
+		4F5571D408A00F0300BAA99A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				HEADER_SEARCH_PATHS = "";
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				INFOPLIST_FILE = "Info-ColorSwatch.plist";
 				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Demos";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ColorSwatch;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
-				WRAPPER_EXTENSION = app;
-				ZERO_LINK = NO;
-			};
-			name = Deployment;
-		};
-		BE651AE80C34728300EC1FC8 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "";
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "Info-ColorSwatch.plist";
-				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Demos";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ColorSwatch;
-				SECTORDER_FLAGS = "";
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-				);
+				SDKROOTS = "$(inherited)";
 				WRAPPER_EXTENSION = app;
 			};
-			name = Default;
+			name = Release;
 		};
-		BE651AEA0C34728300EC1FC8 /* Development */ = {
+		4F5571D708A00F0300BAA99A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOTS = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
 			};
-			name = Development;
+			name = Debug;
 		};
-		BE651AEB0C34728300EC1FC8 /* Deployment */ = {
+		4F5571D808A00F0300BAA99A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOTS = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
 			};
-			name = Deployment;
-		};
-		BE651AEC0C34728300EC1FC8 /* Default */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.4;
-				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
-			};
-			name = Default;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE651AE50C34728300EC1FC8 /* Build configuration list for PBXNativeTarget "ColorSwatch" */ = {
+		4F5571D208A00F0300BAA99A /* Build configuration list for PBXNativeTarget "ColorSwatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE651AE60C34728300EC1FC8 /* Development */,
-				BE651AE70C34728300EC1FC8 /* Deployment */,
-				BE651AE80C34728300EC1FC8 /* Default */,
+				4F5571D308A00F0300BAA99A /* Debug */,
+				4F5571D408A00F0300BAA99A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Release;
 		};
-		BE651AE90C34728300EC1FC8 /* Build configuration list for PBXProject "ColorSwatch" */ = {
+		4F5571D608A00F0300BAA99A /* Build configuration list for PBXProject "ColorSwatch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE651AEA0C34728300EC1FC8 /* Development */,
-				BE651AEB0C34728300EC1FC8 /* Deployment */,
-				BE651AEC0C34728300EC1FC8 /* Default */,
+				4F5571D708A00F0300BAA99A /* Debug */,
+				4F5571D808A00F0300BAA99A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Default;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
