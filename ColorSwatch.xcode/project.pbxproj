@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		02345980000FD03B11CA0E72 = {
+			children = (
+				1870340FFE93FCAF11CA0CD7,
+			);
+			isa = PBXVariantGroup;
+			name = main.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//020
+//021
+//022
+//023
+//024
+//080
+//081
+//082
+//083
+//084
+		0867D6AAFE840B52C02AAC07 = {
+			children = (
+				0867D6ABFE840B52C02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		0867D6ABFE840B52C02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//080
+//081
+//082
+//083
+//084
+//180
+//181
+//182
+//183
+//184
+		1870340FFE93FCAF11CA0CD7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			name = English;
+			path = English.lproj/main.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//180
+//181
+//182
+//183
+//184
+//190
+//191
+//192
+//193
+//194
+		195DF8CFFE9D517E11CA2CBB = {
+			children = (
+				4F94EE1707B308C000AE9F13,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//190
+//191
+//192
+//193
+//194
+//200
+//201
+//202
+//203
+//204
+		20286C28FDCF999611CA2CEA = {
+			buildSettings = {
+			};
+			buildStyles = (
+				4A9504C5FFE6A39111CA0CBA,
+				4A9504C6FFE6A39111CA0CBA,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 20286C29FDCF999611CA2CEA;
+			projectDirPath = "";
+			targets = (
+				4F94EDFF07B308C000AE9F13,
+			);
+		};
+		20286C29FDCF999611CA2CEA = {
+			children = (
+				20286C2AFDCF999611CA2CEA,
+				20286C2CFDCF999611CA2CEA,
+				20286C32FDCF999611CA2CEA,
+				195DF8CFFE9D517E11CA2CBB,
+				4F94EE1607B308C000AE9F13,
+			);
+			isa = PBXGroup;
+			name = ColorSwatch;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		20286C2AFDCF999611CA2CEA = {
+			children = (
+				F5B5E4860302E27201B8B912,
+				8B9849E402FF0A3C0ACA0C9A,
+				60928D16034CF5450BCA0CB8,
+				8B561ECF030444400ACA0C9A,
+			);
+			isa = PBXGroup;
+			name = Sources;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		20286C2CFDCF999611CA2CEA = {
+			children = (
+				0867D6AAFE840B52C02AAC07,
+				02345980000FD03B11CA0E72,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		20286C32FDCF999611CA2CEA = {
+			children = (
+				20286C33FDCF999611CA2CEA,
+				4A9504CAFFE6A41611CA0CBA,
+				4A9504C8FFE6A3BC11CA0CBA,
+			);
+			isa = PBXGroup;
+			name = "External Frameworks and Libraries";
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		20286C33FDCF999611CA2CEA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Carbon.framework;
+			path = /System/Library/Frameworks/Carbon.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+//200
+//201
+//202
+//203
+//204
+//330
+//331
+//332
+//333
+//334
+		332477D20690C8C700AAEC61 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = HIFramework.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		332477D30690C8C700AAEC61 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = TEventHandler.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		332477D40690C8C700AAEC61 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = TEventHandler.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//330
+//331
+//332
+//333
+//334
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+		4A9504C5FFE6A39111CA0CBA = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OPTIMIZATION_CFLAGS = "-O0";
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		4A9504C6FFE6A39111CA0CBA = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+		4A9504C8FFE6A3BC11CA0CBA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = ApplicationServices.framework;
+			path = /System/Library/Frameworks/ApplicationServices.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		4A9504CAFFE6A41611CA0CBA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreServices.framework;
+			path = /System/Library/Frameworks/CoreServices.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+//4F0
+//4F1
+//4F2
+//4F3
+//4F4
+		4F94EDFF07B308C000AE9F13 = {
+			buildPhases = (
+				4F94EE0007B308C000AE9F13,
+				4F94EE0807B308C000AE9F13,
+				4F94EE0B07B308C000AE9F13,
+				4F94EE1307B308C000AE9F13,
+				4F94EE1507B308C000AE9F13,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Info-ColorSwatch.plist";
+				INSTALL_PATH = "$(LOCAL_DEVELOPER_DIR)/Demos";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ColorSwatch;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = ColorSwatch;
+			productInstallPath = "$(LOCAL_DEVELOPER_DIR)/Demos";
+			productName = ColorSwatch;
+			productReference = 4F94EE1707B308C000AE9F13;
+			productType = "com.apple.product-type.application";
+		};
+		4F94EE0007B308C000AE9F13 = {
+			buildActionMask = 2147483647;
+			files = (
+				4F94EE0107B308C000AE9F13,
+				4F94EE0207B308C000AE9F13,
+				4F94EE0307B308C000AE9F13,
+				4F94EE0407B308C000AE9F13,
+				4F94EE0507B308C000AE9F13,
+				4F94EE0607B308C000AE9F13,
+				4F94EE0707B308C000AE9F13,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94EE0107B308C000AE9F13 = {
+			fileRef = 8B9849E402FF0A3C0ACA0C9A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94EE0207B308C000AE9F13 = {
+			fileRef = 8B561ED1030444400ACA0C9A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94EE0307B308C000AE9F13 = {
+			fileRef = 8B561ED5030444400ACA0C9A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94EE0407B308C000AE9F13 = {
+			fileRef = 8B208B65030AF2E90ACA0C9A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94EE0507B308C000AE9F13 = {
+			fileRef = 6029BE9403F9CE210BFF4F4D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94EE0607B308C000AE9F13 = {
+			fileRef = 332477D20690C8C700AAEC61;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94EE0707B308C000AE9F13 = {
+			fileRef = 332477D40690C8C700AAEC61;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94EE0807B308C000AE9F13 = {
+			buildActionMask = 2147483647;
+			files = (
+				4F94EE0907B308C000AE9F13,
+				4F94EE0A07B308C000AE9F13,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94EE0907B308C000AE9F13 = {
+			fileRef = 0867D6AAFE840B52C02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94EE0A07B308C000AE9F13 = {
+			fileRef = 02345980000FD03B11CA0E72;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94EE0B07B308C000AE9F13 = {
+			buildActionMask = 2147483647;
+			files = (
+				4F94EE0C07B308C000AE9F13,
+				4F94EE0D07B308C000AE9F13,
+				4F94EE0E07B308C000AE9F13,
+				4F94EE0F07B308C000AE9F13,
+				4F94EE1007B308C000AE9F13,
+				4F94EE1107B308C000AE9F13,
+				4F94EE1207B308C000AE9F13,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94EE0C07B308C000AE9F13 = {
+			fileRef = F5B5E4860302E27201B8B912;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94EE0D07B308C000AE9F13 = {
+			fileRef = 8B561ED0030444400ACA0C9A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94EE0E07B308C000AE9F13 = {
+			fileRef = 8B561ED4030444400ACA0C9A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94EE0F07B308C000AE9F13 = {
+			fileRef = 8B208B64030AF2E90ACA0C9A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94EE1007B308C000AE9F13 = {
+			fileRef = 60928D16034CF5450BCA0CB8;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94EE1107B308C000AE9F13 = {
+			fileRef = 6029BE9303F9CE210BFF4F4D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94EE1207B308C000AE9F13 = {
+			fileRef = 332477D30690C8C700AAEC61;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94EE1307B308C000AE9F13 = {
+			buildActionMask = 2147483647;
+			files = (
+				4F94EE1407B308C000AE9F13,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94EE1407B308C000AE9F13 = {
+			fileRef = 20286C33FDCF999611CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4F94EE1507B308C000AE9F13 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			isa = PBXRezBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F94EE1607B308C000AE9F13 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			path = "Info-ColorSwatch.plist";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4F94EE1707B308C000AE9F13 = {
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = ColorSwatch.app;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+//4F0
+//4F1
+//4F2
+//4F3
+//4F4
+//600
+//601
+//602
+//603
+//604
+		6029BE9303F9CE210BFF4F4D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = TObject.cp;
+			path = ../HIFramework/TObject.cp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		6029BE9403F9CE210BFF4F4D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = TObject.h;
+			path = ../HIFramework/TObject.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		60928D16034CF5450BCA0CB8 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = ColorSwatch.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//600
+//601
+//602
+//603
+//604
+//8B0
+//8B1
+//8B2
+//8B3
+//8B4
+		8B208B64030AF2E90ACA0C9A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = TRect.cp;
+			path = ../HIFramework/TRect.cp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		8B208B65030AF2E90ACA0C9A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = TRect.h;
+			path = ../HIFramework/TRect.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		8B561ECF030444400ACA0C9A = {
+			children = (
+				332477D20690C8C700AAEC61,
+				8B561ED0030444400ACA0C9A,
+				8B561ED1030444400ACA0C9A,
+				332477D30690C8C700AAEC61,
+				332477D40690C8C700AAEC61,
+				6029BE9303F9CE210BFF4F4D,
+				6029BE9403F9CE210BFF4F4D,
+				8B208B64030AF2E90ACA0C9A,
+				8B208B65030AF2E90ACA0C9A,
+				8B561ED4030444400ACA0C9A,
+				8B561ED5030444400ACA0C9A,
+			);
+			isa = PBXGroup;
+			name = HIFramework;
+			path = ../HIFramework;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		8B561ED0030444400ACA0C9A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = TCarbonEvent.cp;
+			path = ../HIFramework/TCarbonEvent.cp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		8B561ED1030444400ACA0C9A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = TCarbonEvent.h;
+			path = ../HIFramework/TCarbonEvent.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		8B561ED4030444400ACA0C9A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = TView.cp;
+			path = ../HIFramework/TView.cp;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		8B561ED5030444400ACA0C9A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = TView.h;
+			path = ../HIFramework/TView.h;
+			refType = 2;
+			sourceTree = SOURCE_ROOT;
+		};
+		8B9849E402FF0A3C0ACA0C9A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = ColorSwatch.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//8B0
+//8B1
+//8B2
+//8B3
+//8B4
+//F50
+//F51
+//F52
+//F53
+//F54
+		F5B5E4860302E27201B8B912 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			path = main.cp;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+	};
+	rootObject = 20286C28FDCF999611CA2CEA;
+}
